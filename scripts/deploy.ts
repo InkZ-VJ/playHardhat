@@ -1,5 +1,5 @@
 import { ethers, run, network } from "hardhat";
-const fs = require("fs");
+import fs from "fs";
 const ETHERSCAN_API_KEY = fs.readFileSync(".etherscan").toString().trim();
 
 const main = async () => {
